@@ -1,5 +1,5 @@
 
-public class instrumentoTeste {
+public class InstrumentoTeste {
 	public static void main(String [] args) {
 		instrumentoMusical[] instrumento = new instrumentoMusical[5];
 		instrumento[0] = new instrumentoMusical("Violão","Vintage","Marrom");
