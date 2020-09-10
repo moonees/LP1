@@ -1,12 +1,12 @@
 
-public class instrumentoTeste {
+public class InstrumentoTeste {
 	public static void main(String [] args) {
-		instrumentoMusical[] instrumento = new instrumentoMusical[5];
-		instrumento[0] = new instrumentoMusical("Violão","Batata","Marrom");
-		instrumento[1] = new instrumentoMusical("Guitarra", "Batata", "Branca");
-		instrumento[2] = new instrumentoMusical("Saxofone", "Batata", "Dourado");
-		instrumento[3] = new instrumentoMusical("Bateria", "Batata", "Preta e Branco");
-		instrumento[4] = new instrumentoMusical("Triangulo", "Batata", "Prata");
+		InstrumentoMusical[] instrumento = new InstrumentoMusical[5];
+		instrumento[0] = new InstrumentoMusical("Violão","Vintage","Marrom");
+		instrumento[1] = new InstrumentoMusical("Guitarra", "Boss", "Branca");
+		instrumento[2] = new InstrumentoMusical("Saxofone", "Boss", "Dourado");
+		instrumento[3] = new InstrumentoMusical("Bateria", "Laney", "Preta e Branco");
+		instrumento[4] = new InstrumentoMusical("Triangulo", "Vintage", "Prata");
 		
 		for(int i=0; i <5; i++) {
 			System.out.println("O instrumento é"+"\t" + instrumento[i].getNome() +"\t" + "de cor" + "\t" + instrumento[i].getCor());

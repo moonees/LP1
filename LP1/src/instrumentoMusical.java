@@ -1,10 +1,10 @@
 
-public class instrumentoMusical {
+public class InstrumentoMusical {
 	private String nome;
 	private String marca;
 	private String cor;
 	
-	public instrumentoMusical(String nome, String marca, String cor) {
+	public InstrumentoMusical(String nome, String marca, String cor) {
 		this.nome = nome;
 		this.marca = marca;
 		this.cor = cor;
